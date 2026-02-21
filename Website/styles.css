@@ -1,0 +1,121 @@
+.head-line {
+    font-size: calc(24px + 5vw);
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+    background-image: url("IMG_0750.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+}
+.rounded-button {
+    background-color: #4d66d4;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    text-emphasis-color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: calc(20px + 5vw);
+    cursor: pointer;
+}
+
+.rounded-button a{
+    text-decoration: none;
+    color:white;
+    font-size: calc(10px + 1vw);
+    
+}
+.button-group.column {
+    flex-direction: column;
+
+    align-items: center;
+    gap: 4vh;
+}
+
+.button-group.row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.rounded-button:hover {
+    background-color: #04853e;
+    transform: scale(1.05);
+    color: white;
+    cursor: pointer;
+}
+.back-button {
+    background-color: #4b4ddd;
+    text-decoration: none;
+    display: flex;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+.back-button a{
+    text-decoration: none;
+    color:white;
+    font-size: calc(10px + 1vw);
+}
+.description {
+    display: flex;
+    margin-left: 0.4vw
+}
+
+.description.closeToHeadLine {
+    justify-content: center;
+    margin-top: -10vh;
+    margin-left: -2vw;
+}
+
+.description p{
+    background-color: rgb(34, 33, 33);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: calc(10px + 1vw);
+    text-align: center;
+    color: white;
+}
+
+.devices-list {
+    background-color: rgb(34, 33, 33);
+    width: clamp(240px, 60vw, 1080px);
+    padding: 1vw 1.5vw 1vw 1.4vw;
+    margin-top: -2vh;
+    margin-left: 0vw;
+    margin-right: 20vw;
+    border-radius: 20px;
+    color: white;
+    box-sizing: border-box;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    font-size: calc(10px + 1vw);
+}
+.deviceRow {
+    display: flex;
+    justify-content: space-between;
+}
+.deviceStatus {
+    color: white;
+}

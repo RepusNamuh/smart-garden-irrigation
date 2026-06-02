@@ -111,6 +111,8 @@ body {
     flex-direction: column;
     gap: 1vh;
     font-size: calc(10px + 1vw);
+    max-height: 50vh;
+    overflow-y: auto;
 }
 .deviceRow {
     display: flex;
